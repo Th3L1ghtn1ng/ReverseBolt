@@ -1,2 +1,2 @@
 # ReverseBolt
-A keylogger incorporated in a reverse shell encrypted in base64
+A keylogger incorporated in a reverse shell encrypted in base64&hidden
